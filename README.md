@@ -7,9 +7,3 @@
   4)company can see the responses and con connect with the studen by seeing their profile.<br>
   5)company can gget whole information of student when they connect with student.<br>
   6)after hiring for job or internship company can deactivate their post if wants to activate again then they can do.
-# Online-Internship-platform
-# Online-Internship-platform
-# Online-Internship-platform
-# Online-Internship-platform
-# online-internship-website
-# online-internship-website
