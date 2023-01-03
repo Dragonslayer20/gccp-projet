@@ -60,7 +60,7 @@
         </style>
     </head>
     <body>
-        <?php require "admin/nav.php ";
+        <?php require "admin/nav.php";
             if($showerror == true){
                 echo '<script>
                         alert("please check your credentials");

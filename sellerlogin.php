@@ -60,7 +60,7 @@
     </style>
 </head>
 <body>
-<?php require "seller/nav.php ";
+<?php require "seller/nav.php";
 
     if($showerror == true){
         echo '<script>

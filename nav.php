@@ -19,7 +19,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="color:whit
       if($loggedin == true){
       echo'
       <li class="nav-item">
-        <a class="nav-link" href="buyerslogin.php">Buyers login</a>
+        <a class="nav-link" href="./buyerslogin.php">Buyers login</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="sellerlogin.php">Sellers login</a>

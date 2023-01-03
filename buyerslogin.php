@@ -59,7 +59,7 @@
         </style>
     </head>
     <body>
-        <?php require "buyers/nav.php ";
+        <?php require "buyers/nav.php";
 
             if($showerror == true){
                 echo '<script>
