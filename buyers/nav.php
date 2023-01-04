@@ -21,29 +21,24 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="color:whit
               <li class="nav-item">
                 <a class="nav-link" href="sellerlogin.php">Sellers login</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="adminlogin.php">Admin login</a>
-              </li>
             ';
             }
             if($loggedin == false){
-              echo '<li class="nav-item">
-                      <a class="nav-link" href="../buyerslogout.php" id="navbar" role="button">
-                        logout
-                      </a>
+              echo 
+                    '</li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="student.php">Enrolnment</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="post_requirement_form.php">Add Requirement</a>
+                      <a class="nav-link" href="post_requirement_form.php">placement hub</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="dashboard.php">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="congo.php">connected people</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="response.php">Responses</a>
-                    </li>
+                      <a class="nav-link" href="../buyerslogout.php" id="navbar" role="button">
+                        logout
+                      </a>
                   ';
             }
             echo '</ul>

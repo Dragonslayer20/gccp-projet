@@ -39,42 +39,32 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true){
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>post_requirement_form</title>
-    <style>
-     .middle {
-        margin: 2%;
-        margin-left: 30%;
-        margin-right: 28%;
-        padding: 3%;
-        border-radius: 33px;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    }
-    .middle h2{
-      padding-bottom:4%;
-      text-decoration:underline;
-    }
-    .btn{
-        width:300px;
-        height:40px;
-    }
-    b{
-        font-size: 17px;
-    }
-    .header{
-        display: flex;
-        justify-content: space-between;
-        margin-right: 6%;
-        margin-left: 6%;
-        margin-top: 2%;
 
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="admin.css" rel="stylesheet">
+    <title>Admin page</title>
+</head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b> Admin Page</b> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="Admin.html"><strong> Home</strong></a>
+                    <a class="nav-link" href="nsr.html"><strong>New Student Registration</strong></a>
+                    <a class="nav-link" href="Placehub.html"><strong>Placement Hub</strong></a>
+                    <a class="nav-link" href="logout.php"><strong>Logout</strong></a>
+                </div>
+            </div>
+        </div>
+    </nav>
     </style>
 </head>
 <body onload="swal">
@@ -93,10 +83,6 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true){
       }
   ?>
   <?php include "nav.php";  ?>  
-  <div class="header">
-    <h5>user side </h5>
-    <h5>Logged in</h5>
-  </div>
 <!-- form  -->
   <div class="middle">
     <form action="post_requirement_form.php" method="post">

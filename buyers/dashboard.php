@@ -46,11 +46,6 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true){
 </head>
 <body>
 <?php include "nav.php";  ?>  
-<div class="header">
-  <h5>user side </h5>
-  <h5>Logged in</h5>
-</div>
-
 <div class="middle">
 <h2>Posted requirements</h2>
 <table  class="table table-borderless">
@@ -100,11 +95,5 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true){
   </tbody>
 </table>
 </div>
-
-   
-<div class="footer" style="position:center;">
-    <center><h3>&copy aditya sabde 2022</h3></center>
-</div>
-
 </body>
 </html>

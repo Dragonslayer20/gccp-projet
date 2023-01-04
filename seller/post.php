@@ -21,31 +21,37 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true){
     </head>
     <body >
         <?php require "nav.php" ; ?>
-        <div class="head">
-            <h3>Professionals side<h3>
-            <div class="info">
-                <h5> 
-                    <?php 
-                    /* this causes error time please check once*/
-                    $date= date('a') ;
-                    if($date =='pm'){
-                        echo 'Good afternoon,';
-                        }
-                    else{
-                        echo 'Good morning,';
-                    }  
-                    echo $_SESSION['username']; ?>
-                    </h5>
-                <h5><?php echo date("l, jS \-F Y ")?>
-                </h5>
-            </div>
-        </div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Student Login</title>
+    <style>
+      body{
+        overflow-x: hidden;
+      }
+      h1{
+        overflow: hidden;
+      }
+    </style>
+</head>
+<body>
+    
+<!----MAIN-->
 
-        <div class="title">
-        <hr>
-            <h2>Requirement Possts</h2>
-        <hr>    
-        </div>
+<h1 class="display-5" style="position: relative; left: 28rem;" >About our Placement Cell</h1>
+<p class="fs-5 px-5 mx-5">
+    MCET has a dedicated Training & Placement Cell with committed Team Members who will make positive and profond impact on the way education is imparted in the country.
+    <br>
+    <br>
+    The goal of the  T & P cell is to develop  students into integrated personalities with a blend of academics and to showcase their talent and  skills
+</p><hr>
+<h2  text-algin="Center"> Ongoing Placements </h2>
+</body>
+</html>
         
         <div class="post">
             <?php  

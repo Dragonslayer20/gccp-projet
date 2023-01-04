@@ -21,14 +21,11 @@
 <body>
     <?php include "nav.php" ?>
     <center><h2 style="padding: 5%;">PHP and MYSQL test Intership program</h2></center>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur blanditiis, a veniam sequi iste dolorum debitis dignissimos eveniet
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nesciunt placeat nostrum accusantium? Placeat delectus explicabo vel quas 
-     laborum deserunt porro voluptatem non et! Odio sint repudiandae porro eaque officia.   
-     voluptates amet ipsum facilis qui est culpa et reiciendis adipisci repudiandae sit!
+     <p>welcome to our website
     </p>
 
     <div class="footer" style="position:center;">
-        <center><h3>&copy aditya sabde 2022</h3></center>
+        <center><h3>GDSC WEB DEVOLOPMENT TEAM</h3></center>
     </div>
 </body>
 </html>
